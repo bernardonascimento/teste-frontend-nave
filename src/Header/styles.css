@@ -1,0 +1,21 @@
+.header_container {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_container img {
+  width: 145px;
+  height: 37px;
+}
+
+.header_container button {
+  width: 28px;
+  height: 24px;
+  padding: 0;
+  background-color: transparent;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+}
