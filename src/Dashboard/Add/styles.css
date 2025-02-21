@@ -1,0 +1,22 @@
+.add_container {
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.add_container h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #212121;
+  font-weight: 600;
+}
+
+.add_container button {
+  width: 176px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 24px;
+  background: #212121;
+}

@@ -1,10 +1,18 @@
+import { useNavigate } from "react-router";
+
 import "./styles.css";
 
 export const Header = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/");
+  };
+
   return (
     <div className="header_container">
       <img src="./logo.png" alt="Logo" />
-      <button>Sair</button>
+      <button onClick={handleClick}>Sair</button>
     </div>
   );
 };
